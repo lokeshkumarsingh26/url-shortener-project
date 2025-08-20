@@ -1,0 +1,198 @@
+/* Fonts & Base */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #6a5acd;
+}
+
+/* Layout Helpers */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.gap-2 {
+  gap: 1.2rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #6a5acd, #48c9b0);
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(106, 90, 205, 0.3);
+}
+
+.btn-rounded {
+  border-radius: 50px;
+}
+
+/* Navbar */
+header {
+  padding: 1.5rem 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar_container ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.navbar_container a {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Hero Section */
+#hero {
+  padding: 5rem 0;
+}
+
+.hero_section h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #222;
+}
+
+.hero_section p {
+  margin: 1rem 0 2rem;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Search Bar */
+.searchbar {
+  background: #6a5acd;
+  padding: 2rem;
+  border-radius: 15px;
+  position: relative;
+  top: -50px;
+}
+
+.searchbar input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.searchbar p {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: #eee;
+}
+
+/* Cards */
+.cards {
+  margin-top: 4rem;
+  position: relative;
+}
+
+.card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  flex: 1;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h1 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Boost Section */
+#boost {
+  background: linear-gradient(135deg, #48c9b0, #6a5acd);
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 20px;
+  color: #fff;
+}
+
+#boost h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+#footer {
+  background: #2d2d2d;
+  color: #ddd;
+  padding: 3rem 0;
+}
+
+.footer_container a {
+  color: #bbb;
+  display: block;
+  margin: 6px 0;
+  transition: color 0.3s;
+}
+
+.footer_container a:hover {
+  color: #48c9b0;
+}
+
+.footer_header {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer_icons ion-icon {
+  font-size: 1.5rem;
+  margin: 0 8px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer_icons ion-icon:hover {
+  color: #48c9b0;
+}
+
